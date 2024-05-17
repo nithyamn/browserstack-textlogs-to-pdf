@@ -108,7 +108,7 @@ public class GenerateTextLogsToPDF {
 
 
     public String basicAuthHeaderGeneration(){
-        //creating Bas64 string of the browserstack username and accesskey
+        //creating Base64 string of the browserstack username and accesskey
         String authCreds = username+":"+accesskey;
         return "Basic " + Base64.getEncoder().encodeToString(authCreds.getBytes());
     }
