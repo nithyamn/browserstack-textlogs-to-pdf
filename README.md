@@ -4,6 +4,7 @@ This repo facilitates extracting an Automate sessions "Raw Logs" and converting 
 ## How to run the tests in this repo
 * `mvn install`
 * `mv test -P sample`
+Reports will be generated in the `src/test/resources/` directory.
 
 
 
